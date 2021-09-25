@@ -12,7 +12,8 @@ ChatterBot app running on Docker
 
 ```
 % cd chatterbot-app
-% docker run -it --name mychatbot --rm --volume $(pwd):/usr/src/app lwz7512/chatterbot:latest sh
+% docker pull lwz7512/chatterbot
+% docker run -it --name mychatbot --rm --volume $(pwd):/usr/src/app lwz7512/chatterbot sh
 ```
 
 ## First ChatterBot app 
